@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue_water">
+
+    <LinearLayout
+        android:id="@+id/fertilizer_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/sprout"/>
+        <TextView
+            android:text="@string/fertilizer_menu"
+            android:textColor="@android:color/white"
+            android:textSize="40sp"
+            android:layout_marginTop="22dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:layout_below="@+id/fertilizer_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    <Button
+        android:id="@+id/pump1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/Pump_1" />
+    <Button
+        android:id="@+id/pump2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/Pump_2" />
+    <Button
+        android:id="@+id/pump3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/Pump_3" />
+    <Button
+        android:id="@+id/pump4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/Pump_4" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"
+        android:layout_alignBottom="@id/fertilizer_title"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="75dp"
+        android:id="@+id/view">
+    </View>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout"
+        android:layout_marginBottom="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_alignParentStart="true"
+        android:max="100"/>
+
+    <TextView
+        android:id="@+id/dosingSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/seekBar"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_water">
+    <LinearLayout
+        android:id="@+id/feeder_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/fish"/>
+        <TextView
+            android:text="@string/feeder_menu"
+            android:textColor="@android:color/white"
+            android:textSize="40sp"
+            android:layout_marginTop="22dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"
+        android:layout_alignBottom="@id/feeder_home"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="75dp">
+    </View>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="blue_water">#3366FF</color>
+    <color name="plant_green">#339933</color>
+    <color name="pink_pump">#fe1b9f</color>
+    <color name="blue_pump">#3333ff</color>
+    <color name="green_pump">#2eb82e</color>
+    <color name="purple_pump">#6600cc</color>
+</resources>

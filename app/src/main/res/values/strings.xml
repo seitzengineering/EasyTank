@@ -1,0 +1,17 @@
+<resources>
+    <string name="home">HOME</string>
+    <string name="app_name">EasyTank</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="Fertilizers">Fertilizers</string>
+    <string name="Feeder">Feeder</string>
+    <string name="Schedule">Schedule</string>
+    <string name="Pump_1">Pump 1</string>
+    <string name="Pump_2">Pump 2</string>
+    <string name="Pump_3">Pump 3</string>
+    <string name="Pump_4">Pump 4</string>
+    <string name="fertilizer_menu">FERTILIZERS</string>
+    <string name="schedule_menu">SCHEDULE</string>
+    <string name="feeder_menu">FEEDER</string>
+    <string name="temperature_constant">N/A</string>
+    <string name="pumpstring_common">0 mL</string>
+</resources>
